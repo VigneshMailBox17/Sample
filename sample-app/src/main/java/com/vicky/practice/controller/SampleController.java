@@ -9,7 +9,7 @@ public class SampleController {
 	@GetMapping
 	public String sample() 
 	{
-		System.out.println("Master Branch");
+		System.out.println("Development Branch");
 		return "success";
 	}
 }
